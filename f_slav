@@ -1,0 +1,12 @@
+1) По максимуму автоматизировать работу (скорее всего bast-скрипт с переменными)
+
+2) Надо получить csv-таблицы и после этого перевести их из unix-кодировки в win + заменить разделители с “,”(запятая), на “;” (точка с запятой) ( скорее всего [https://unix.stackexchange.com/questions/158254/convert-csv-to-xls-file-on-linux](https://unix.stackexchange.com/questions/158254/convert-csv-to-xls-file-on-linux))
+
+```
+apt-get install unix2dos
+unix2dos example.csv
+apt-get install gnumeric
+ssconvert example.csv example.xlsx
+```
+
+3) может автоматизировать отправку на шару? (в скрипте)
